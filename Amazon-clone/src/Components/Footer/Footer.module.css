@@ -1,0 +1,100 @@
+.footer {
+  margin: 0 13%;
+}
+
+.footermiddle {
+  border-top: solid px #e7dada;
+}
+.footer_container {
+  background-color: #232f3e;
+}
+.footer_link_container {
+  background-color: #131a22; /* Amazon's footer background color */
+  color: #ddd; /* Text color */
+  padding: 20px; /* Padding around the footer */
+  font-size: 14px; /* Default font size */
+  width: 100%; /* Make sure the footer spans the full width */
+}
+
+.footerLogo {
+  text-align: center; /* Center the logo horizontally */
+  margin-bottom: 20px; /* Space below the logo */
+}
+
+.footerLinks {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between columns */
+  flex-wrap: wrap; /* Allow wrapping of columns if they don't fit */
+}
+
+.footerColumn {
+  flex: 1 1 14%; /* Each column takes up about 14% of the width */
+  max-width: 124px; /* Minimum width for a column */
+  margin-bottom: 20px; /* Space below each column */
+  font-size: 12px;
+}
+
+.navLink {
+  color: #ddd; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+  display: block; /* Block level for easy spacing */
+  margin-bottom: 20px; /* Space below each link */
+  max-width: 140px;
+}
+
+.navLink:hover {
+  color: #ddd;
+  text-decoration: underline; /* Add underline on hover */
+}
+.navFooterDescText {
+  font-size: 12px; /* Smaller font size for description text */
+  color: #999999; /* Slightly lighter color for the description text */
+}
+
+.footerBottom {
+  border-top: 1px solid #3a4553; /* Top border to separate footer bottom */
+  padding-top: 20px; /* Space above footer bottom */
+  text-align: center; /* Center text and links in footer bottom */
+  margin-top: 20px; /* Space above footer bottom section */
+}
+
+.footerBottomLinks {
+  margin-bottom: 10px; /* Space below the links section */
+}
+
+.footerBottomLinks a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 10px; /* Space between links */
+  font-size: 12px; /* Slightly smaller font size for bottom links */
+}
+
+.footerBottomLinks a:hover {
+  text-decoration: underline; /* Underline on hover for emphasis */
+  color: white; /* Change color on hover for emphasis */
+}
+
+.footer p {
+  margin: 0; /* Remove default paragraph margin */
+  font-size: 12px; /* Slightly smaller font size for copyright text */
+}
+#nav_sprite{
+  background-image: url(../../assets/image/nav_sprite_global.png);
+  background-position: 0 -1000px;
+  background-repeat: repeat-x;
+}
+.navicon_ccba {
+  background-position: -136px -380px;
+  width: 29px;
+  height: 14px;
+  position: relative;
+  top: 2.25px;
+}
+.language_option {
+  display: inline-block !important;
+  border: 1px solid #848688;
+  border-radius: 3px;
+  padding: 6px 18px 6px 8px;
+  font-size: 13px;
+  margin-right: 4px;
+}

@@ -1,0 +1,9 @@
+body {
+  font-size: 14px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --primary-color: #febd69;
+  --primray-shade: #d49644;
+}

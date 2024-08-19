@@ -1,0 +1,61 @@
+.logo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.auth_wrapper h1 {
+  font-weight: 400;
+}
+
+.auth_wrapper {
+  padding-top: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: justify;
+  align-items: center;
+}
+.auth_wrapper img {
+  margin: 30px auto;
+  object-fit: contain;
+  width: 100px;
+}
+
+.form_wrapper {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;
+  border-image: initial;
+  padding: 20px;
+}
+.form_wrapper div {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  margin-block: 10px;
+}
+
+.form_wrapper label{
+    display: block;
+    font-size: 0.83em;
+    /* margin: 1.67em 0; */
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.form_wrapper button {
+  font-size: 14px;
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+}
+.form_wrapper .button_signIn{
+     background-color: #F7CA00;
+}
+.form_wrapper .button_sigIup{
+    background-color: #f0f0f0;
+}

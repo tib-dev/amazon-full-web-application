@@ -1,0 +1,35 @@
+.signIn_register_link_container {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 40px 0;
+}
+.signIn_register_link_container a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.signIn_register_link_container .title {
+  margin-top: 20px;
+}
+.signIn_link {
+  cursor: pointer;
+  background-color: #ffc636;
+  background-position: right -170px;
+  display: block;
+  height: 28px;
+  width: 230px;
+  max-width: 230px;
+  margin: 10px auto;
+  border-radius: 6px;
+  position: relative;
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffe093;
+}
+
+.signIn_link:hover {
+  color: #000;
+}
